@@ -10,23 +10,20 @@ div{
 footer{
     font-size: 10px;
     display:flex;
-    justify-content: ;
+    justify-content: flex-end;
 }
 nav{
     text-align: left;
 }
 
-.headerPhoto{
-    display: flex;
-    justify-content: left;
-}
 
-header, h2, footer{
-    height:100px;
+header, .section-content, footer{
     width: 100%;
     background-color: #f5a260;
     border: 5px solid #e76e51;
     font-size: 20px;
+    min-height: 100px;
+    margin:20px;
 }
 
 p{
@@ -34,7 +31,18 @@ p{
     color: white;
 }
 
+.clear-fix{
+    clear:both;
+}
 
+.my-cols-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.header-photo {
+    width: 25vw;
+}
 
 .headerPhoto{
     width:200px;
@@ -71,7 +79,7 @@ p{
     border: 3px solid #e76e51; 
 }
 
-#link{
+.link{
   background-color: #e76e51;
   width: 200px;
   margin: 10px;
