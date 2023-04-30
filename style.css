@@ -45,12 +45,12 @@ p{
 }
 
 .headerPhoto{
-    width:200px;
-    height:300px;
+    width: 100px;
+    height:200px;
     margin: 20px;
 }
 
-.catPhoto{
+.cat-photo{
     width: 200px;
     height: 200px;
     margin: 10x;
@@ -61,7 +61,7 @@ p{
     text-align: left;
 }
 
-.sectionTitle{
+.section-title{
     color: white;
     text-align: left;
 }
@@ -76,7 +76,13 @@ p{
 
 .photos{
     margin: 15px;
-    border: 3px solid #e76e51; 
+    border: 3px solid #e76e51;
+}
+
+.my-cols-3{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 .link{
