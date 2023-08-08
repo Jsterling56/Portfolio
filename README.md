@@ -3,6 +3,8 @@
 This is my portfolio! 
 
 Most of (if not all) of the work I've made is here.
+All code here (so far) is my own.
+Many have given me tips, but it's been written by me.
 
 This exists for the sole reason of bettering myself and my level of knowledge. Constantly learning, constantly improving.
 
