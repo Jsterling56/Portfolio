@@ -81,7 +81,7 @@ p{
 
 .my-cols-3{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: wrap;
     justify-content: space-between;
 }
 
